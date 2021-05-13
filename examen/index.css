@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+i{
+    text-align: center;
+    color: rgb(252, 252, 252);
+    margin: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.header{
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: rgb(255, 255, 255); 
+}
+.caja1{
+    width: 25%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    }
+.caja2{
+    width: 75%;
+    height: 70px;
+    background-color: rgb(53, 54, 51);
+    text-align: right;
+    align-items: center;
+    }
+.cuerpo{
+width: 100%;
+display: flex;
+justify-content: space-around;
+height: 600px;
+background-color: rgb(255, 255, 255);
+}
+.cajon1{
+    width: 25%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    }
+.lado1{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+}
+.lado2{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(236, 117, 5);
+}
+.cajon2{
+    width: 75%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    }
+.cajoncito{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(236, 117, 5);
+    border: 3px solid gainsboro;
+    color: white;
+    font-size: 25px;
+}
+.vacio{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+h2{
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}
+.bagon1{
+    width: 98%;
+    margin-top: 5px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0);
+}
+.bagon2{
+    width: 100%;
+    margin-top: 5px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.bagon21{
+    width: 23%;
+    height: 74px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+}
+.bagon3{
+    width: 100%;
+    margin-top: 5px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.bagon31{
+    width: 38%;
+    height: 194px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+.bagon32{
+    width: 58%;
+    height: 194px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+.bagon4{
+    width: 100%;
+    margin-top: 5px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.bagon41{
+    width: 76%;
+    height: 194px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+.bagon42{
+    width: 20%;
+    height: 194px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    
+}

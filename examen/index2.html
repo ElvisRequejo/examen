@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/examen/estilos.css">
+</head>
+<body>
+    <div class="header">
+        <div class="caja1"> <i class="fas fa-cog">POST</i></div>
+        <div class="caja2"></div>
+    </div>
+    <div class="vagon">
+    <div class="container1">        
+        <input type="text" class="cajatitulo" id="nombre" placeholder="Titulo" required>
+        <input type="tel" class="cajadescripcion" id="telefono" placeholder="Descripcion" required>
+        <button class="boton" onclick="registrar()">Agregar</button>
+    </div>
+    <div class="container2">
+        <div class="cajon1">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th class="titulo">Nombre</th>
+                    <th class="descripcion">Teléfono</th>
+                    <th class="accioon">Acción</th>
+                </tr>
+            </thead>
+            <tbody id="tbd"></tbody>
+        </table>
+    </div>
+    <div class="cajon2"><h3><b>Copyright © 2021. Todos los derechos reservados.</b></h3></div>
+    </div>
+</div>
+    <script src="/examen/script.js"></script>
+</body>
+</html>
