@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="/examen/estilos.css">
 </head>
@@ -15,8 +16,8 @@
     </div>
     <div class="vagon">
     <div class="container1">        
-        <input type="text" class="cajatitulo" id="nombre" placeholder="Titulo" required>
-        <input type="tel" class="cajadescripcion" id="telefono" placeholder="Descripcion" required>
+        <input type="text" class="cajatitulo" id="titulo" placeholder="Titulo" required>
+        <input type="tel" class="cajadescripcion" id="descripcion" placeholder="Descripcion" required>
         <button class="boton" onclick="registrar()">Agregar</button>
     </div>
     <div class="container2">
@@ -24,15 +25,15 @@
         <table id="table">
             <thead>
                 <tr>
-                    <th class="titulo">Nombre</th>
-                    <th class="descripcion">Teléfono</th>
-                    <th class="accioon">Acción</th>
+                    <th class="titulo">Titulo</th>
+                    <th class="descripcion">Descripcion</th>
+                    <th class="accion">Accion</th>
                 </tr>
             </thead>
             <tbody id="tbd"></tbody>
         </table>
     </div>
-    <div class="cajon2"><h3><b>Copyright © 2021. Todos los derechos reservados.</b></h3></div>
+    <div class="cajon2"><h3><b>Copyright © 2021. Ingeniería de Sistemas.</b></h3></div>
     </div>
 </div>
     <script src="/examen/script.js"></script>
