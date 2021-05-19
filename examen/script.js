@@ -5,7 +5,6 @@ var filita = "";
 var estado = 0;
 function registrar(){  
     if(estado==0){
-        alert("save");
     var table = document.getElementById("table");
     var tbody = document.getElementById("tbd");
     var fila = document.createElement("tr");
@@ -30,7 +29,6 @@ function registrar(){
     limpiar();
     i+=1;
     }else{
-        alert("editar");
         filita.cells[0].innerHTML = tit.value;
         filita.cells[1].innerHTML = des.value;
         filita = "";
