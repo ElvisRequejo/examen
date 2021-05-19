@@ -4,11 +4,8 @@
     margin: 0 auto;
 }
 i{
-    text-align: center;
     color: rgb(252, 252, 252);
-    margin: 10px;
-    margin-left: 10px;
-    font-size: 30px;
+    margin-right: 45px;
 }
 .header{
 width: 100%;
@@ -19,14 +16,23 @@ background-color: rgb(255, 255, 255);
 .caja1{
     width: 25%;
     height: 70px;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
+    text-align: center;
+}
+.sistemas{
+    margin-top: 15px;
+    font-size: 30px;
     }
 .caja2{
     width: 75%;
     height: 70px;
     background-color: rgb(53, 54, 51);
     text-align: right;
-    align-items: center;
+    }
+.iconos{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
     }
 .cuerpo{
 width: 100%;
@@ -63,17 +69,22 @@ background-color: rgb(255, 255, 255);
     color: white;
     font-size: 25px;
 }
+.texto{
+    margin-top: 10px;
+    font-size: 22px;
+    margin-left: 20%;
+}
 .vacio{
-    width: 100%;
+    margin-left: 6%;
+    width: 94%;
     height: 40px;
     background-color: white;
 }
 h2{
     color: black;
-    margin-left: 50px;
     font-size: 20px;
     padding: 8px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width: 90%;
@@ -94,9 +105,10 @@ h2{
     display: flex;
 }
 h1{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    padding: 20px;
+    padding:7%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .bagon21{
     width: 23%;
@@ -145,4 +157,156 @@ h1{
     background-color: rgb(255, 255, 255);
     border: 3px solid rgb(0, 0, 0);
     
+}
+h3{
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+@media screen and (max-width:1300px ) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+        padding:7%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    }
+@media screen and (max-width:1100px ) {
+        h1{
+            font-size: 18px;
+            text-align: center;
+            padding:7%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .sistemas{
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        .texto{
+            margin-top: 10px;
+            font-size: 19px;
+            margin-left: 20%;
+        }
+        }
+@media screen and (max-width:970px ) {
+            h1{
+                font-size: 16px;
+                text-align: center;
+                padding:7%;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .sistemas{
+                margin-top: 15px;
+                font-size: 22px;
+            }
+            .texto{
+                margin-top: 10px;
+                font-size: 15px;
+                margin-left: 20%;
+            }
+            }
+@media screen and (max-width:850px ) {
+                h1{
+                    font-size: 14px;
+                    text-align: center;
+                    padding:7%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .sistemas{
+                    margin-top: 15px;
+                    font-size: 20px;
+                }
+                .texto{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    margin-left: 20%;
+                }
+                }
+@media screen and (max-width:750px ) {
+                    h1{
+                        font-size: 13px;
+                        text-align: center;
+                        padding:7%;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    .sistemas{
+                        margin-top: 15px;
+                        font-size: 17px;
+                    }
+                    .texto{
+                        margin-top: 10px;
+                        font-size: 12px;
+                        margin-left: 20%;
+                    }
+                    }
+                    h2{
+                        color: black;
+                        font-size: 20px;
+                        padding: 8px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    h3{
+                        color: black;
+                        font-size: 15px;
+                        padding: 8px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        }
+@media screen and (max-width:700px ) {
+                        h1{
+                            font-size: 12px;
+                            text-align: center;
+                            padding:7%;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                        .sistemas{
+                            margin-top: 15px;
+                            font-size: 15px;
+                        }
+                        .texto{
+                            margin-top: 10px;
+                            font-size: 10px;
+                            margin-left: 20%;
+                        }
+                        h2{
+                            color: black;
+                            font-size: 20px;
+                            padding: 8px;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                        h3{
+                            color: black;
+                            font-size: 14px;
+                            padding: 8px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            }
+                    }
+@media screen and (max-width:650px ) {
+    h1{
+    font-size: 10px;
+    text-align: center;
+    padding:7%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .sistemas{
+    margin-top: 15px;
+    font-size: 12px;
+    }
+    .texto{
+    margin-top: 10px;
+    font-size: 8px;
+    margin-left: 20%;
+    }
+    h2{
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        color: black;
+        font-size: 12px;
+        padding: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
 }
